@@ -1,6 +1,6 @@
 # AlbumReactJS - using JSONPLACEHOLDER API 
 
-A dynamic & interactive web page built with ReactJS. - [Live demo](https://heroku.com)
+A dynamic & interactive web page built with ReactJS. - [Live demo](https://albumreactjs.herokuapp.com/)
 
 ## Description
 
