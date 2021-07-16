@@ -1,0 +1,215 @@
+body {
+  background-color: #c7daff;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 94%;
+}
+
+.d-flex {
+  display: flex;
+  width: 100%;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.img-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 5%;
+  background-color: #d9f1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid, .img-thumbnail {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.mt-5 {
+  margin: 2rem 0rem;
+}
+
+.input-group > .form-control {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #c4daf0;
+  background-color: rgb(155, 213, 255);
+  background-clip: padding-box;
+  border: 1px solid #cbd7e4;
+  border-radius: 10px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input-group-append {
+  border-radius: 30px;
+}
+
+.input-group-append, .input-group-prepend {
+  display: flex;
+  margin-left: 10px;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: .375rem .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #a4a5a7;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  cursor: pointer;
+}
+button {
+  border-radius: 10px;
+}
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.border-0 {
+  border: 0!important;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.border-top {
+  border-top: 2px solid #b8dbf0;
+}
+
+.border-left {
+  border-left: 2px solid #88cae9;
+}
+
+.m-0 {
+  margin: .25rem;
+}
+
+.mt-2, .my-2 {
+  margin: .8rem 0rem;
+}
+
+.ml-2, .mx-2 {
+  margin-left: 1rem!important;
+}
+
+.media-body {
+  flex: 1 1;
+}
+
+.text-muted {
+  color: #C6CADC;
+}
+
+.text-primary {
+  color: #648BFE;
+}
+
+.text-black-50 {
+  color: #606060;
+}
+
+.text-black-20 {
+  color: #a09d9d;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: .7rem 1.25rem;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+      max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container, .container-md, .container-sm {
+      max-width: 720px;
+  }
+  .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 48%;
+  }
+}
+@media (min-width: 992px) {
+  .container, .container-lg, .container-md, .container-sm {
+      max-width: 960px;
+  }
+  .col-lg-4 {
+      flex: 0 0 30%;
+      max-width: 30%;
+  }
+}
